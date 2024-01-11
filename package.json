@@ -1,6 +1,6 @@
 {
-  "name": "svg",
-  "version": "0.1.0",
+  "name": "path.svg.beauty",
+  "version": "0.2.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "classnames": "^2.5.1",
-    "next": "12",
+    "next": "13",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "sass": "^1.69.7"
