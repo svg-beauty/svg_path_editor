@@ -7,4 +7,4 @@ SVG Path Editor is an interactive tool to edit an SVG by editing the path comman
 This project is built using [Next.js](https://nextjs.org/)
 
 ## License
-[MIT](https://github.com/rfauver/svg_path_editor/blob/main/LICENSE)
+[MIT](https://github.com/svg-beauty/svg_path_editor/blob/main/LICENSE)

@@ -29,7 +29,7 @@ export default function LearnMore() {
         </a>
       </p>
       <p>
-        <a href='https://github.com/rfauver/svg_path_editor' target='_blank'>
+        <a href='https://github.com/svg-beauty/svg_path_editor' target='_blank'>
           Source code on Github
         </a>
       </p>
