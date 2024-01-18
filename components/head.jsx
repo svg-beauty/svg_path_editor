@@ -37,25 +37,6 @@ export default function Head({ instructions, svgText }) {
             .join('')}
         </style>
       </NextHead>
-      {/* Fathom - simple website analytics */}
-      {process.env.NEXT_PUBLIC_VERCEL_ENV === 'production' &&
-        publicRuntimeConfig.fathomDomain &&
-        publicRuntimeConfig.fathomId && (
-          <NextScript>
-            {`(function(f, a, t, h, o, m){
-              a[h]=a[h]||function(){
-                (a[h].q=a[h].q||[]).push(arguments)
-              };
-              o=f.createElement('script'),
-              m=f.getElementsByTagName('script')[0];
-              o.async=1; o.src=t; o.id='fathom-script';
-              m.parentNode.insertBefore(o,m)
-            })(document, window, '${publicRuntimeConfig.fathomDomain}', 'fathom');
-            fathom('set', 'siteId', '${publicRuntimeConfig.fathomId}');
-            fathom('trackPageview');`}
-          </NextScript>
-        )}
-      {/* / Fathom */}
     </>
   );
 }
